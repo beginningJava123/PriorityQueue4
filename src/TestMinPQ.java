@@ -11,6 +11,7 @@ public class TestMinPQ {
         if (!testEmptyPriority(optimized)) return;
         if (!testEmptyPriority(heap)) return;
 
+
         String[] test= {"test1", "test2", "test3", "test4", "test5"};
         int index = test.length;
         for (String str : test) {
